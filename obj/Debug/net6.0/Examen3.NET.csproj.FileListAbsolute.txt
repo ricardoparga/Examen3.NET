@@ -1,0 +1,9 @@
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.csproj.AssemblyReference.cache
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.AssemblyInfoInputs.cache
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.AssemblyInfo.cs
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.RazorAssemblyInfo.cache
+C:\Users\jesus\Documents\.NET\Examen3.NET\obj\Debug\net6.0\Examen3.NET.RazorAssemblyInfo.cs
