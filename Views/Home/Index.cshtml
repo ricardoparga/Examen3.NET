@@ -2,7 +2,132 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<center>
+  <div style="display:inline-block;vertical-align:middle;">
+    <img src="/imagenes/sliders/logoR.webp" width="200" height="200" alt="img" class="img-rounded"/>
+  </div>
+
+  <div style="display:inline-block;">
+    <h1>Restaurante</h1>
+    <p> ¡SmartKitchen te da alas!</p>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-12 text-center"><h1></h1></div>
+    </div>
+  </div>
+
+  <div class="titulo-divisor">
+      <div class="col-12 text-center"><h1></h1></div>
+  </div>
+</center>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12 text-center"><h1></h1></div>
+  </div>
+</div>
+
+<div class ="container">
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item">
+        <div class="carousel-item active">
+          <img src="/imagenes/sliders/imgPozole.jpg" class="d-block w-100" alt="/imagenes/sliders/imgCoca.jpg">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/sliders/imgTacos.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/sliders/imgH.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12 text-center"><h1></h1></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12 text-center"><h1>Menú</h1></div>
+  </div>
+</div>
+
+<center>
+    <div class="titulo-divisor"></div>
+</center>
+
+<div class ="container">
+    <div class = "row">
+        <div class ="animacion" align="center">
+            <button type="button" class="btn">
+                <a class="dropdown-item" asp-controller="Entrada" asp-action="Index">Entradas</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image efecto izqda" align ="left" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+                </path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+            </button>
+
+            <!--  Aqui no hay nada  -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image nada" align ="left" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image nada" align ="left" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+            <!--  Aqui no hay nada  -->
+
+            <button type="button" class="btn">
+                <a class="dropdown-item" asp-controller="Comida" asp-action="Index">Comidas</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image efecto cto" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+            </button>
+
+            <!--  Aqui no hay nada  -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image nada" align ="left" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image nada" align ="left" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+            <!--  Aqui no hay nada  -->
+
+            <button type="button" class="btn">
+                <a class="dropdown-item" asp-controller="Bebida" asp-action="Index">Bebidas</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-image efecto dcha" viewBox="0 0 16 16">
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+                </path>
+                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z">
+                </path>
+            </svg>
+    </div>
 </div>

@@ -16,3 +16,95 @@ html {
 body {
   margin-bottom: 60px;
 }
+.boton-crear{
+  display: inline-flex;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.boton-crear::after{
+  content: "";
+  width: calc(100% + 60px);
+  height: 100%;
+  /*background-color: rgb(226, 100, 17);*/
+  position: absolute;
+  left: calc(-100% - 80px);
+  top:0;
+  transition: .4s ease-in-out all;
+  border-bottom: 50px solid rgb(226, 100, 17);
+  border-right: 50px solid transparent;
+  z-index: 1;
+}
+.boton-crear a{
+  color: white;
+  text-decoration: none;
+  z-index: 2;
+}
+.boton-crear:hover{
+  color: white;
+  text-decoration: none;
+  transition: .4s ease-in-out all;
+}
+.boton-crear:hover::after{
+  left: 0;
+  transition: .4s ease-in-out all;
+}
+.carousel-inner img {
+  width: 100px;
+  height: 500px;;
+}
+
+.carousel-inner{
+height: 100%;
+width: 80%;
+top: 10%;
+left: calc(100% - 90%);
+}
+
+.acomodo{
+  top: 10%;
+  left: calc(100% - 90%);
+}
+
+.titulo-divisor{
+  height: 0.4rem;
+  width: 50rem;
+  margin: 0.5rem;
+  background-color: whitesmoke;
+  border-radius: 0.25rem;
+}
+.animacion .efecto:hover{
+  color: black;
+  width: 110px;
+  height: 110px;
+  transition: .4s ease-in-out all;
+  
+  border: 1px solid #000000;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding: 10px;
+
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-radius: 5px;
+}
+.animacion .efecto:hover::after{
+  transition: .4s ease-in-out all;
+}
+
+.nada{
+  color: transparent;
+}

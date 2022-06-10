@@ -8,45 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Examen3.NET
 build_property.RootNamespace = Examen3.NET
-build_property.ProjectDir = C:\Users\jesus\Documents\.NET\Examen3.NET\
+build_property.ProjectDir = c:\Users\jesus\Documents\.NET\Examen3.NET\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jesus\Documents\.NET\Examen3.NET
+build_property.MSBuildProjectDirectory = c:\Users\jesus\Documents\.NET\Examen3.NET
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/Home/Index.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Bebida/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Bebida/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Bebida/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Bebida/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Bebida/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Comida/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Comida/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Comida/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Comida/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Comida/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Entrada/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Entrada/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Entrada/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Entrada/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Entrada/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/Home/Privacy.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/Error.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/_ViewImports.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/_ViewStart.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/_Layout.cshtml]
+[c:/Users/jesus/Documents/.NET/Examen3.NET/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-06c5k6flj9
